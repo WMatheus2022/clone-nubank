@@ -17,7 +17,7 @@ class FindOutMore extends StatelessWidget {
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           const SizedBox(
-            height: 16,
+            height: 20,
           ),
           findOutCards(),
         ],
@@ -34,7 +34,16 @@ class FindOutMore extends StatelessWidget {
               image: 'assets/images/image nubank.png',
               title: 'Conhecer',
               description: 'Sua liberdade financeira \n começa com você ..',
-              buttonText: 'Parcele suas comprsd prlo app'),
+              buttonText: 'Parcele suas compras pelo app'),
+          const SizedBox(
+            width: 20,
+          ),
+          CardFindOutMore(
+            
+              image: 'assets/images/simulador-de-parcelamento.png',
+              title: 'Descubra mais',
+              description: 'parcele sua contas',
+              buttonText: 'Clique aqui'),
         ],
       ),
     );
